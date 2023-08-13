@@ -1,0 +1,7 @@
+Bootstrap: docker
+From: ubuntu:22.04
+
+%post
+apt update
+apt install -y python3-pip
+pip install -r requirements.txt
